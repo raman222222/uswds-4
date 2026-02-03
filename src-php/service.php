@@ -13,28 +13,51 @@
 <body>
     <?php require_once '2_nav.php'; ?>
 
-<main id="main-content">
-  <section class="usa-section">
-    <div class="grid-container">
-      <h1>Our Services</h1>
-      <p class="usa-intro">We provide reliable digital solutions aligned with U.S. Web Design System standards.</p>
-      <div class="grid-row grid-gap margin-top-4">
-        <div class="grid-col-12 tablet:grid-col-4">
-          <h2>Web Development</h2>
-          <p>Standards-compliant websites built with accessibility and performance in mind.</p>
-        </div>
-        <div class="grid-col-12 tablet:grid-col-4">
-          <h2>UI Implementation</h2>
-          <p>Clean, reusable components following federal design patterns.</p>
-        </div>
-        <div class="grid-col-12 tablet:grid-col-4">
-          <h2>Content & Maintenance</h2>
-          <p>Ongoing updates, QA, and content structure improvements.</p>
+<main class="usa-section usa-section--light">
+  <div class="grid-container">
+    <h1 class="usa-heading-xl">Our Services</h1>
+
+    <p>We provide a range of services to meet your needs. Each service is designed with quality and accessibility in mind.</p>
+
+    <section class="grid-row grid-gap">
+      <!-- Service 1 -->
+      <div class="grid-col-sm-6 grid-col-md-4">
+        <div class="usa-card">
+          <header class="usa-card__header">
+            <h2 class="usa-heading-md">Consulting</h2>
+          </header>
+          <div class="usa-card__body">
+            <p>Expert guidance to optimize your workflow and improve efficiency.</p>
+          </div>
         </div>
       </div>
-      <a href="#" class="usa-button margin-top-5">Contact us</a>
-    </div>
-  </section>
+
+      <!-- Service 2 -->
+      <div class="grid-col-sm-6 grid-col-md-4">
+        <div class="usa-card">
+          <header class="usa-card__header">
+            <h2 class="usa-heading-md">Development</h2>
+          </header>
+          <div class="usa-card__body">
+            <p>Custom web and software solutions built to your specifications.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="grid-col-sm-6 grid-col-md-4">
+        <div class="usa-card">
+          <header class="usa-card__header">
+            <h2 class="usa-heading-md">Support</h2>
+          </header>
+          <div class="usa-card__body">
+            <p>Reliable technical support and maintenance for your systems.</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </div>
 </main>
 
     <?php require_once '9_footer.php'; ?>
